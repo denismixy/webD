@@ -1,0 +1,11 @@
+
+M
+java:S1481"+Remove this unused "cookie" local variable.(­Ô¢øÿÿÿÿ8Ø›Ñ¡/
+f
+java:S11925"IDefine a constant instead of duplicating this literal "password" 3 times.(ÖÙ‘®8‘¯Òô¡/
+\
+java:S1854":Remove this useless assignment to local variable "cookie".(­Ô¢øÿÿÿÿ8Ø›Ñ¡/
+b
+java:S11924"FDefine a constant instead of duplicating this literal "login" 3 times.(úŒ¿{8‘¯Òô¡/
+X	java:S125"<This block of commented-out lines of code should be removed.(ÈªÚ™8Ğ…Ôù¡/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚íİ»8»ƒªÏ¡/

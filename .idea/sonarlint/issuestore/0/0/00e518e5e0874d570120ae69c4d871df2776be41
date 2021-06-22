@@ -1,0 +1,10 @@
+
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¸Œ³8†¶¸Ç¡/
+z
+java:S3008"XRename this field "DataBaseChats" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜êÄğÿÿÿÿÿ8†¶¸Ç¡/
+L
+java:S3740m"/Provide the parametrized type for this generic.(öôàí8’“ğ¡/
+Q
+java:S1066"/Merge this if statement with the enclosing one.(ïé„Ìÿÿÿÿÿ8Ñœäò¡/
+L
+java:S1066"/Merge this if statement with the enclosing one.(éÓÃ¶8Ñœäò¡/

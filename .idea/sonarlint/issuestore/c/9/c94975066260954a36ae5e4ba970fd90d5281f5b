@@ -1,0 +1,13 @@
+
+£
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö«â„ÿÿÿÿÿ8»ƒªÏ¡/
+H
+java:S1172"&Remove these unused method parameters.(ß˜ñ úÿÿÿÿ8»ƒªÏ¡/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8»ƒªÏ¡/
+…
+java:S1488""cImmediately return this expression instead of assigning it to the temporary variable "resultCheck".(à¢®ıÿÿÿÿ8»ƒªÏ¡/
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(£³²8»ƒªÏ¡/
+0
+java:S1700"Rename field "chat"(Æôö¿8»ƒªÏ¡/

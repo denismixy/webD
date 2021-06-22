@@ -1,0 +1,17 @@
+
+Q
+java:S1481"/Remove this unused "authorized" local variable.(å¨ú¸üÿÿÿÿ8Ã”ÔÇ¡/
+Q
+java:S1481"/Remove this unused "registered" local variable.(ÿöÓ¦úÿÿÿÿ8Ã”ÔÇ¡/
+`
+java:S1854">Remove this useless assignment to local variable "authorized".(å¨ú¸üÿÿÿÿ8Ã”ÔÇ¡/
+a
+java:S1854"?Remove this useless assignment to local variable "membersList".(Ï½Ñ‘øÿÿÿÿ8Ã”ÔÇ¡/
+R
+java:S1481"0Remove this unused "membersList" local variable.(Ï½Ñ‘øÿÿÿÿ8Ã”ÔÇ¡/
+`
+java:S1854">Remove this useless assignment to local variable "registered".(ÿöÓ¦úÿÿÿÿ8Ã”ÔÇ¡/
+^
+java:S1854"<Remove this useless assignment to local variable "chatsNew".(äöî¸ÿÿÿÿÿ8Ï©Óñ¡/
+O
+java:S1481"-Remove this unused "chatsNew" local variable.(äöî¸ÿÿÿÿÿ8Ï©Óñ¡/

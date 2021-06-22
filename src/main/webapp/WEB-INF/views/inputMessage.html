@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Тег INPUT</title>
+</head>
+<body>
+
+<form  name="test" id="test" method="post" action="/registrationSend">
+    <p><b>Введите логин получателя:</b><br>
+        <input type="text" name="to" size="40">
+    <p><b>Введите сообщение:</b><br>
+        <input type="text" name="message" size="200">
+        <input type="hidden" name="login" th:value="${login}">
+        <input type="hidden" name="password" th:value="${password}">
+        <input type="submit" value="Написать Сообщение">
+    </p>
+</form>
+
+</body>
+</html>

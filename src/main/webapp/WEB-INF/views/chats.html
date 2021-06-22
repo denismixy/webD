@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<head>
+    <script type = 'text/javascript'>
+        setTimeout(() => {
+            document.getElementById("test").submit();
+        }, 2000)
+    </script>
+</head>
+
+<body>
+<div th:each="member : ${members}">
+    <a th:text="${member}"></a>
+</div>
+
+<div th:each="message : ${chat}">
+    <a th:text="${message}"></a>
+</div>
+
+<form id="test" name="test" method="post" action="/authoriz">
+    <input type="hidden" name="login" th:value="${login}">
+    <input type="hidden" name="password" th:value="${password}">
+    <input type="hidden" name="to" th:value="${to}">
+</form>
+
+<form id="send" name="send" method="post" action="/goToSend">
+    <input type="hidden" name="login" th:value="${login}">
+    <input type="hidden" name="password" th:value="${password}">
+    <p><input type="submit" value="Написать Сообщение">
+</form>
+
+</body>
+</html>

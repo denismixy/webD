@@ -1,0 +1,12 @@
+
+£
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İÿËıÿÿÿÿ8ÊƒªÏ¡/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(äÕªş8ÊƒªÏ¡/
+8
+java:S1700"Rename field "message"(¾»¶Åøÿÿÿÿ8ÊƒªÏ¡/
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(™ëİ÷8ÊƒªÏ¡/
+~
+java:S1488'"aImmediately return this expression instead of assigning it to the temporary variable "outString".(éËïè8¨õåğ¡/
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(Ø×Ó8ÊƒªÏ¡/

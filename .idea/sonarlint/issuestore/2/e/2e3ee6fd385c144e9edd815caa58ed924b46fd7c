@@ -1,0 +1,13 @@
+
+T	java:S1060"9Replace this use of System.out or System.err by a logger.(þ¸­8ñ¼¸Ï¡/
+T	java:S1068"9Replace this use of System.out or System.err by a logger.(þ¸­8ñ¼¸Ï¡/
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(¶“ “þÿÿÿÿ8ñ¼¸Ï¡/
+Š
+java:S1319<"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(‚Æ¡˜8ñ¼¸Ï¡/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÎ¯8ñ¼¸Ï¡/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Žæµµ8ñ¼¸Ï¡/
+U	java:S106("9Replace this use of System.out or System.err by a logger.(£†ÿ‰8ñ¼¸Ï¡/
+;
+java:S1700"Rename field "authorized"(Îò‹´øÿÿÿÿ8ñ¼¸Ï¡/
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(À³åîøÿÿÿÿ8ñ¼¸Ï¡/
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(¶“ “þÿÿÿÿ8ñ¼¸Ï¡/
