@@ -41,4 +41,21 @@ public class Message {
     public String getMessageString() {
         return "From: " + from + " To: " + from + " Datetime: " + date + " Message: " + message;
     }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getMess() {
+        return message;
+    }
+
 }
