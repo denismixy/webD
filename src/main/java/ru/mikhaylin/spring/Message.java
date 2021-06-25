@@ -4,39 +4,41 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Message {
-    private ArrayList<String> message = new ArrayList<>();
+    private final String from;
+    private final String to;
+    private final String date;
+    private final String message;
 
-    public Message() {
-
+    public Message(String from, String to, String message) {
+        this.from = from;
+        this.to = to;
+        this.date = new Date().toString();
+        this.message = message;
     }
 
+    @Deprecated
     public void addMessage(String from, String to, String message) {
-        Date date = new Date();
-        this.message.add(from);
-        this.message.add(to);
-        this.message.add(date.toString());
-        this.message.add(message);
+        new Message(from, to, message);
     }
 
     public ArrayList<String> getMessage() {
-        return message;
+        ArrayList <String> messageAsList = new ArrayList<>();
+        messageAsList.add(from);
+        messageAsList.add(to);
+        messageAsList.add(date);
+        messageAsList.add(message);
+        return messageAsList;
     }
 
     public void printMessage() {
-        String outString = " от кого: " + message.get(0) + " кому: " + message.get(1) + " дата сообщения: " + message.get(2) + " текст сообщения: " + message.get(3);
-        System.out.println(outString);
+        System.out.println(getMessageString());
     }
 
-    public boolean checkSenderAndReciver(String from, String to) {
-        if ((message.get(0).equals(from) || message.get(0).equals(to)) && (message.get(1).equals(from) || message.get(1).equals(to))) {
-            return true;
-        } else {
-            return false;
-        }
+    public boolean checkSenderAndReceiver(String from, String to) {
+        return (this.from.equals(from) || this.from.equals(to)) && (this.to.equals(from) || this.to.equals(to));
     }
 
     public String getMessageString() {
-        String outString = "From: " + message.get(0) + " To: " + message.get(1) + " Datetime: " + message.get(2) + " Message: " + message.get(3);
-        return outString;
+        return "From: " + from + " To: " + from + " Datetime: " + date + " Message: " + message;
     }
 }
